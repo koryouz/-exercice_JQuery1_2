@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $('#text').show();
-)}
+  $("#image").dblclick(function(){
+      $('#image').width(500);
+  });
+});
